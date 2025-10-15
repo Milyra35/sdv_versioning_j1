@@ -37,3 +37,10 @@ Rebase réapplique les commits d'une branche par-dessus une autre, produisant un
 - git reflog :remonte tous les mouvements de HEAD (utile pour retrouver des états perdus)
 - git reset : replace le dépôt à un commit antérieur (!!destructif!!)
 - git revert : crée un nouveau commit annulant un changement sans casser l'historique
+
+# Sauvegarder / Restaurer / Appliquer
+
+- git stash : met de côté temporairement les modifications non validées
+- git stash list : affiche toutes les sauvegardes en attente
+- git stash apply stash@{} : réapplique un stash spécifique sans le supprimer de la liste
+- git stash pop : réapplique et supprime le dernier stash de la liste
