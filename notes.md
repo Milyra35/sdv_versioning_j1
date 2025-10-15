@@ -16,6 +16,7 @@ Les branches permettent de travailler sur des fonctionnalités indépendantes sa
 - git branch NOM_BRANCHE : créer une nouvelle branche
 - git checkout NOM_BRANCHE : basculer sur une branche
 - git merge NOM_BRANCHE : fusionner une branche dans la branche courante
+- git branch -D NOM_BRANCHE : delete une branche
 
 Merge crée un commit spécial qui fusionne deux branches, conservant l'historique entier.
 Rebase réapplique les commits d'une branche par-dessus une autre, produisant un historique linéaire et plus propre.
