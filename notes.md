@@ -26,3 +26,14 @@ Rebase réapplique les commits d'une branche par-dessus une autre, produisant un
 - Brancher pour travailler sur une nouvelle fonctionnalité sans toucher au code principal
 - Main : branche principale et stable
 - Feature : créer une branche pour une nouveauté
+
+# Fichier .gitignore
+
+- Liste les fichiers et dossiers que Git doit ignorer, et donc idéalement éviter de commit des fichiers volumineux, sensibles ou temporaires.
+
+# Parcourir et manipuler l'historique Git
+
+- git log : affiche l'hsitorique clair et visuel des commits
+- git reflog :remonte tous les mouvements de HEAD (utile pour retrouver des états perdus)
+- git reset : replace le dépôt à un commit antérieur (!!destructif!!)
+- git revert : crée un nouveau commit annulant un changement sans casser l'historique
