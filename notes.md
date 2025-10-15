@@ -20,3 +20,9 @@ Les branches permettent de travailler sur des fonctionnalités indépendantes sa
 
 Merge crée un commit spécial qui fusionne deux branches, conservant l'historique entier.
 Rebase réapplique les commits d'une branche par-dessus une autre, produisant un historique linéaire et plus propre.
+
+# Branches et collaboration
+
+- Brancher pour travailler sur une nouvelle fonctionnalité sans toucher au code principal
+- Main : branche principale et stable
+- Feature : créer une branche pour une nouveauté
