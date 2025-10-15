@@ -5,3 +5,5 @@ Repositories : dépôt où sont sauvegardés les fichiers, des versions de fichi
 Commits : Update les changements faits sur le code, sur la branche
 Branches : Une version de code (par exemple différentes fonctionnalités)
 Merge : Rassembler deux branches
+
+-u : abréviation de --set-upstream
