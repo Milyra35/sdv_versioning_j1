@@ -44,3 +44,12 @@ Rebase réapplique les commits d'une branche par-dessus une autre, produisant un
 - git stash list : affiche toutes les sauvegardes en attente
 - git stash apply stash@{} : réapplique un stash spécifique sans le supprimer de la liste
 - git stash pop : réapplique et supprime le dernier stash de la liste
+
+# Introduction aux concepts CI/CD et DevOps
+
+- DevOps : automatiser et accélérer la mise à disposition de code fiable
+- DevOps : collaboration entre développement et exploitation
+- Intégration continue (CI) : fusion fréquente du code, automatisation builds et tests
+- Livraison continue (CD) : préparation automatique du code validé pour déploiement
+- Deploiement continu : publication automatique en production sans intervention humaine.
+- CRUD : create (post), read (get), update (put), delete (delete)
